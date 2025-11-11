@@ -391,7 +391,6 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
 }
 
 .social-list {
@@ -413,6 +412,10 @@ li {
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: #31d0aa;
+}
+
+.social-text{
+    margin-bottom: 16px;
 }
 
 
