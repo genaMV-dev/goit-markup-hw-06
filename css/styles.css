@@ -386,6 +386,7 @@ li {
 }
 
 .social-text {
+  margin-bottom: 16px;  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -413,11 +414,6 @@ li {
 .social-link-footer:focus {
   background-color: #31d0aa;
 }
-
-p .social-text{
-    margin-bottom: 16px;
-}
-
 
 
 
