@@ -417,6 +417,66 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
   background-color: #31d0aa;
 }
 
+.form-paragraph{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-left: 80px;
+    margin-bottom: 16px;
+}
+
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
+
+.input-footer{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+    margin-left: 80px;
+    margin-right: 24px;
+}
+
+.input-footer::placeholder{
+    color: #ffffff;
+}
+
+.subscribe-button{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.send-svg{
+    margin-left: 16px;
+}
+
+
+
  /* #endregion footer */
 
 
