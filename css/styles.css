@@ -28,7 +28,8 @@ li {
 }
 
 .container{
-    width: 1158px;
+    width: 100%;
+    max-width: 768px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -42,7 +43,7 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
 }
 
 .nav{
-    display: flex;
+    display: flex; 
     align-items: center;
 }
 
@@ -64,7 +65,8 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
 }
 
 .nav-list{
-    display: flex;
+    /* display: flex; */
+    display: none;
     gap: 40px;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -109,10 +111,11 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
     gap: 40px;
     margin-top: 24px;
     margin-bottom: 24px;
+    display: none
 }
 
 .nav-contact{
-    font-style: normal;
+    font-style: normal;;
 }
 
 .nav-contact-address{
@@ -128,6 +131,17 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
     color: #404bbf;
 }
 
+.burger-menu-button{
+    display: flex;
+    background: transparent;
+    border: none;    
+}
+
+.burger-menu-icon{
+    display: flex;
+    margin: 16px;
+}
+
 /* #endregion header */
 
 
@@ -136,12 +150,20 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
 .hero{
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image-m.jpg);
+    max-width: 768px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) and (min-resolution: 192dpi){
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image-m2x.jpg);
+    }
+} 
+
 
 .hero-tittle{
     font-size: 56px;
@@ -149,7 +171,7 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    max-width: 496px;
+    max-width: 216px;
     margin: 0 auto;
     margin-bottom: 48px;
 }
