@@ -387,10 +387,11 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
 }
 
 @media screen and (min-width: 768px) {
-  .values-item {
-    margin: 0;
+  .values-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
+
 
 .values-icon{
     /* display: flex; */
@@ -529,8 +530,8 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
 }
 
 @media screen and (min-width: 768px) {
-  .team-item {
-    margin: 0;
+  .team-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
@@ -622,8 +623,8 @@ h1,h2,h3,h4,h5,h6,p{margin:0;}
 }
 
 @media screen and (min-width: 768px) {
-  .portfolio-item {
-    margin: 0;
+  .portfolio-item:not(:last-child) {
+    margin-bottom: 0;
   }
 }
 
